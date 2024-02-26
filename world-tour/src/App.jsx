@@ -1,13 +1,14 @@
  
 import './App.css'
+import Header from './components/Header/Header'
+import Countries from './components/countries/Countries'
 
 function App() {
   
   return (
     <>
-      
-      <h1>Vite + React</h1>
-     
+      <Header></Header>
+      <Countries></Countries>
     </>
   )
 }
